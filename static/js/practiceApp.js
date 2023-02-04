@@ -28,11 +28,11 @@ function listLoop(userList) {
     for (var i = 0; i < userList.length; i++) {
       console.log(userList[i]);
     }
- }
+ };
 let vegetables = ["Carrots", "Peas", "Lettuce", "Tomatoes"];
 for (var i = 0; i < vegetables.length; i++) {
     console.log("I love " + vegetables[i]);
-}
+};
 for (var i = 0; i < 5; i++) {
     console.log("I am " + i);
- }
+ };
