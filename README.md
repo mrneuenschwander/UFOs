@@ -9,8 +9,6 @@ The bootstrapping and HTML aspect was more of what we had done in previous weeks
 ### Purpose | Report Level
 The site was built with the intent to prove aliens are real. With all the information flying around nowadays, the need to catalogue all the information we can regarding our Extraterrestrial friends is more important than ever. For instance, knowing that a large section of the sightings come from the US can lead to the conclusion that the US does in fact have a secret trade deal with Alpha Centauri, and their pilots are bad at stealth.  
 
-<!-- ## Analysis and Challenges
-Description -->
 ## Results
 In order to use the site and recover data that has been stored in our data objects, it's a simple process:
 - Know the general location of where you would like to search, and enter the state and country (if outside the US)
@@ -19,17 +17,18 @@ In order to use the site and recover data that has been stored in our data objec
 
 The site is really very user friendly, as there are no buttons to click or pages to get lost in.
 
-IMAGE HERE CleanSite1
+<img width="1185" alt="CleanSite1" src="https://user-images.githubusercontent.com/116296092/216848860-34e264cc-53a3-4cfe-847c-d2a359ab81b0.png">
+
 
 The search filters are autonomous, meaning that there is no button to click, and an event listener is watching to make sure that the new field data is taken into account should the filter change in any category.
 
-IMAGE HERE EventListener
+![EventListener](https://user-images.githubusercontent.com/116296092/216848866-e14e4543-f1d2-4458-bfc9-d2e4fe6c3b5c.png)
 
-IMAGE HERE EventListener2
+<img width="1156" alt="EventListener2" src="https://user-images.githubusercontent.com/116296092/216848869-fb45ef14-3525-4d72-944e-ae2055292cf0.png">
 
 When the page is reloaded with nothing in the filters, the base table displays as seen above. The button at the top left, 'UFO Sightings' will also reset the page and a user's search, allowing for analysis of a new set of data.
 
-IMAGE HERE ClearButton
+<img width="435" alt="ClearButton" src="https://user-images.githubusercontent.com/116296092/216848879-be2f1944-c8c3-4cae-89ad-1557def81df1.png">
 
 Primarily, this is an upgrade to the data, as initially the alien data is contained within JavaScript objects and can be difficult to read. Using a site like this allows for clean presentation of data while not confusing anyone who may be using it for any purpose, and is much friendlier as a whole searching with filters than by writing new inquiries for each sighting every time.
 
